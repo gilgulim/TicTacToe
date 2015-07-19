@@ -1,0 +1,118 @@
+body{
+    margin:40px !important;
+}
+h1 {
+
+    margin-bottom:40px !important;
+    font-weight: bold !important;
+}
+
+.site-header{
+    text-align: center;
+}
+
+.header{
+    margin-top: 55px;
+    text-align: left;
+    border-bottom: 1px solid #286090;
+}
+    .header > h2{
+        margin: 0 !important;
+        color: #286090 ;
+    }
+    .header .glyphicon-user{
+    color: #286090 !important;
+}
+
+.play-btn{
+    margin-bottom: 40px;
+}
+
+.states{
+    list-style-type: none;
+    padding: 0 !important;
+}
+    .states > li{
+        display: inline;
+    }
+        .states > li > i{
+            font-size: larger;
+            margin: 2px;
+            margin-top: 4px;
+        }
+
+.wins{
+    color: #286090;
+}
+    .wins > ul{
+        color: #8CC10C;
+    }
+
+.loses{
+    color: #286090;
+}
+.loses > ul{
+    color: #C1383C;
+}
+.spacer-20 {
+    margin-top: 20px;
+}
+.sub-header-title{
+    border-bottom: 1px solid ;
+}
+
+    .sub-header-title > h3{
+        margin: 0 !important;
+    }
+
+.sign-container{
+    max-width: 100px;
+    max-height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+
+}
+
+.cell{
+    margin-top: 0 !important;
+    height: 150px;
+    align-content: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-align: center; margin: 1em 0;
+}
+
+.helper{
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.glyphicons {
+    padding-left: 0;
+    padding-bottom: 1px;
+    margin-bottom: 20px;
+    list-style: none;
+    overflow: hidden;
+}
+
+.glyphicons li {
+    float: left;
+    width: 12.5%;
+    height: 115px;
+    padding: 10px;
+    margin: 0 -1px -1px 0;
+    font-size: 12px;
+    line-height: 1.4;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.glyphicons .glyphicon {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    display: block;
+    text-align: center;
+}
